@@ -1,0 +1,14 @@
+loadLineChartData({
+    "type": "force",
+    "categories": ["rawUser"],
+    "nodes": [
+        {"name":"Lxy", "category": 0, "id":"Lxy"},
+        {"name":"Lzy", "category": 0, "id":"Lzy"},
+        {"name":"Lc", "category": 0, "id":"Lc"}
+    ],
+    "links": [
+        {"source": "Lxy", "target": "Lzy" },
+        {"source": "Lxy", "target": "Lc" },
+
+    ]
+})
